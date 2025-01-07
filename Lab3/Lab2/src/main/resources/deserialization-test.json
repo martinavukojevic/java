@@ -1,0 +1,20 @@
+{
+  "address": "tcp://localhost:1883",
+  "topic": "sensorTopic",
+  "sensors": [
+    {
+      "name": "temperatureSensor",
+      "lowerRange": -3000.0,
+      "higherRange": 3000.0,
+      "factor": 5,
+      "unit": "Celsius"
+    },
+    {
+      "name": "pressureSensor",
+      "lowerRange": 10.0,
+      "higherRange": 80.0,
+      "factor": 500,
+      "unit": "Pascal"
+    }
+  ]
+}

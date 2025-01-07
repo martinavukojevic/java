@@ -1,0 +1,34 @@
+{
+  "address": "tcp://localhost:1883",
+  "topic": "waterTopic",
+  "sensors": [
+    {
+      "name": "temperatureSensor",
+      "lowerRange": -3000.0,
+      "higherRange": 3000.0,
+      "factor": 5,
+      "unit": "Celsius"
+    },
+    {
+      "name": "pressureSensor",
+      "lowerRange": 5.0,
+      "higherRange": 70.0,
+      "factor": 500,
+      "unit": "Pascal"
+    },
+    {
+      "name": "waterConsumption",
+      "lowerRange": 0,
+      "higherRange": 7000.0,
+      "factor": 1,
+      "unit": "Liter"
+    },
+    {
+      "name": "waterVolume(big)",
+      "lowerRange": 0,
+      "higherRange": 7000.0,
+      "factor": 15,
+      "unit": "cubic meters"
+    }
+  ]
+}
